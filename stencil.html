@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <title>Victor Magniont</title>
     <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icones/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icones/favicon-16x16.png">
+    <link rel="manifest" href="images/icones/manifest.json">
+    <link rel="mask-icon" href="images/icones/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/icones/favicon.ico">
+    <meta name="msapplication-config" content="images/icones/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/reset.css">
@@ -14,14 +21,14 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/linkstyles.css">
     <link rel="stylesheet" href="styles/component.css">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="styles/style-inola.css">
     <link rel="stylesheet" href="styles/demo.css">
-    <link rel="stylesheet" media="(max-width: 800px) , not(display:grid)" href="styles/media.css">
+    <link rel="stylesheet" media="screen" href="styles/media.css">
 
-    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    <script>
+      document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars();
+    </script>
   </head>
   <body>
       <div class="sitename">
@@ -41,11 +48,11 @@
           <a class="tel cont" href="tel:0618524003">06 18 52 40 03</a>
         </div>
       </div>
-        <a class="nav" href="home.html">homepage</a>
+
       <h1 class="title link link--takiri">Portfolio<span>Victor Magniont</span></h1>
       <section class="content">
         <nav class="menu menu--inola">
-          <div class="menu__item active_item" href="stencil.html">
+          <div class="menu__item active_item" >
             <span class="menu__item-name">Stencil Night</span>
             <span class="menu__item-label">Typographie</span>
           </div>

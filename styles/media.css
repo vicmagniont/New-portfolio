@@ -45,7 +45,8 @@ body{
 }
 
 #textwork{
-  margin-bottom: 100px
+  margin-bottom: 100px;
+  margin-top: 30px
 }
 .sitename{
   font-size: 0.7em;
