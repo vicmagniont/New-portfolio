@@ -37,6 +37,12 @@ body{
 
 
 }
+.menu--inola .menu__item-name {
+  font-size: 3vmax
+}
+.menu--inola .menu__item-label {
+  font-size: 1.2vmax
+}
 
 #textwork{
   margin-bottom: 100px
@@ -57,14 +63,14 @@ body{
 }
 #logo{
   position: fixed;
-  left: 50vw;
-  top: 10px;
+  left: 10px;
+  top: 25px;
   width: 30px;
-  transform: translateX(-20px);
-  transition: 1s ease
+  transform: translateX(0);
+  transition: 1s ease;
 }
 #logo:hover{
-  transform: rotate(180deg) translateX(20px);
+  transform: rotate(180deg) translateX(0px);
 }
 }
 @supports not(display:grid)
