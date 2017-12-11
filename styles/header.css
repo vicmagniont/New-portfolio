@@ -1,0 +1,29 @@
+.sitename{
+  position: fixed;
+  left: 10px;
+  top: 10px
+}
+
+#logo{
+  position: fixed;
+  left: 50vw;
+  top: 10px;
+  width: 50px;
+  transform: translateX(-40px);
+  transition: 1s ease
+}
+#logo:hover{
+  transform: rotate(180deg) translateX(40px);
+}
+.contact{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  text-align: right;
+}
+
+.nav{
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
