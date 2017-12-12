@@ -3,7 +3,9 @@
   left: 10px;
   top: 10px
 }
-
+.sitename:hover{
+  text-decoration: line-through;
+}
 #logo{
   position: fixed;
   left: 50vw;
