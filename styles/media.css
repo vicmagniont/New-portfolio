@@ -1,7 +1,7 @@
 
 
 
-@media (max-width: 800px) , not(display:grid)  {
+@media (max-width: 800px)   {
 body{
   display: flex;
   flex-wrap: wrap;
@@ -30,8 +30,6 @@ body{
   justify-content: space-around;
   align-items: baseline;
   flex-wrap: wrap;
-  margin-left: 20px;
-  margin-right: 20px;
   padding-left: 30px;
   padding-right: 30px
 
@@ -47,6 +45,8 @@ body{
 #textwork{
   margin-top: 20px;
   margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px
 }
 .sitename{
   font-size: 0.7em;
@@ -77,4 +77,79 @@ h2{
   transform: rotate(180deg) translateX(0px);
 }
 }
-@supports not(display:grid)
+@supports not(display:grid){
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 0
+  }
+  .content{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: normal;
+  }
+  .menu--inola{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px
+
+
+  }
+  .menu--inola .menu__item-name {
+    font-size: 3vmax
+  }
+  .menu--inola .menu__item-label {
+    font-size: 1.2vmax
+  }
+
+  #textwork{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+  .sitename{
+    font-size: 0.7em;
+  }
+  .contact{
+    font-size: 0.7em;
+  }
+  .slides{
+    height: 30vh;
+  }
+  .slides-nav{
+    height: 40%
+  }
+  h2{
+    font-size: 1em
+  }
+  .is-active .slide__img{
+  }
+  #logo{
+    position: fixed;
+    left: 10px;
+    top: 25px;
+    width: 30px;
+    transform: translateX(0);
+    transition: 1s ease;
+  }
+  #logo:hover{
+    transform: rotate(180deg) translateX(0px);
+  }
+  }
